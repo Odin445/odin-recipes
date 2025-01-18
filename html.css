@@ -19,3 +19,13 @@ h1{
 a:hover{
   color: red;
 }
+
+.container {
+  
+}
+.my-list li {
+  margin: 10px 0;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+}
