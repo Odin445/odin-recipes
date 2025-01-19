@@ -3,14 +3,6 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-p{
-  margin: 30px;
-  border: 5px solid green; 
-  border-radius: 10px;
-  padding: 10px;
-  background-color: lightblue;
-}
-
 h1{
   background-color: lightyellow;
   border-radius: 10px;
@@ -29,3 +21,24 @@ a:hover{
   padding: 10px;
   border-radius: 4px;
 }
+
+.media{
+  border: 5px solid green;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-start;
+}
+
+img{
+  height: 450px;
+  display: block;
+  
+}
+
+.media .content{
+  padding: 10px;
+  flex: 1;
+  font-size: 25px;
+}
+
+
